@@ -29,5 +29,5 @@ pip install opencv-python
 * Place the image you want to compress in the same directory as the JPEG.py file.
 * Change the image_path variable in the compress.py file to the name of your image file.
 * Run JPEG.py.
-* The compressed image will be saved in the same directory with the same name as the original image, but with "_compressed" added to the file name.
+* The compressed image will be saved in the same directory.
 
