@@ -1,4 +1,4 @@
-# Image Compression with DCT and Quantization
+# JPEG-DCT Image Compression
 
 
 This program compresses a given image using DCT and quantization.
@@ -26,8 +26,8 @@ pip install opencv-python
 ### Usage
 
 * Download or clone this repository.
-* Place the image you want to compress in the same directory as the JPEG5.py file.
+* Place the image you want to compress in the same directory as the JPEG.py file.
 * Change the image_path variable in the compress.py file to the name of your image file.
-* Run JPEG5.py.
+* Run JPEG.py.
 * The compressed image will be saved in the same directory with the same name as the original image, but with "_compressed" added to the file name.
 
