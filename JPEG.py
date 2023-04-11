@@ -24,7 +24,9 @@ import time
 
 start_time = time.time()
 
-image = Image.open("r30109005t.tif")
+image_path = "r30109005t.tif"
+image = Image.open(image_path)
+
 # Convert the image to a numpy array
 image_array = np.array(image)
 
