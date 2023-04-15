@@ -13,9 +13,11 @@ Overall, this implementation of the JPEG compression process steps without the e
 
 * numpy
 * PIL
-* matplotlib
 * skimage
 * cv2
+* scipy
+* os
+* time
 
 ## Installation
 
@@ -24,9 +26,9 @@ Install the required libraries by running:
 ```
 pip install numpy
 pip install Pillow
-pip install matplotlib
 pip install scikit-image
 pip install opencv-python
+pip install scipy
 ```
 ### Usage
 

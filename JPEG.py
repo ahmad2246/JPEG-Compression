@@ -11,7 +11,6 @@ Created on Tue Apr 11 14:56:23 2023
 #---------------------
 import numpy as np
 from PIL import Image
-import matplotlib.pyplot as plt
 from scipy.fftpack import dct, idct
 from skimage import metrics
 import cv2
@@ -99,8 +98,6 @@ def divide_blocks(ycbcr_array):
 
 def DCT(blocks):
 
-    N = 8
-    
     for i in range(blocks.shape[0]):
      
         blocks[i,:,:,0] = dct(dct(blocks[i,:,:,0].T, norm = 'ortho').T, norm = 'ortho') # finding DCT coff of Block_Y
@@ -165,8 +162,7 @@ def deQuantization(dct_blocks):
 
 def inverse_DCT(blocks):
 
-    N = 8
-    
+
     for i in range(blocks.shape[0]):
      
         blocks[i,:,:,0] = idct(idct(blocks[i,:,:,0].T, norm = 'ortho').T, norm = 'ortho') # finding inverse DCT coff of Block_Y
