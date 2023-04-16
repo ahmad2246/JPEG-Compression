@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 11 14:56:23 2023
-
-@author: ahmad
-"""
-
 
 #---------------------
 # Importing Libraries
@@ -295,6 +289,7 @@ refference_img = cv2.imread("r30109005t.tif", 1)
 #---------------------
 # image quality metrics
 #---------------------
+
 
 # get the size of the images
 refference_size = os.path.getsize("r30109005t.tif")
